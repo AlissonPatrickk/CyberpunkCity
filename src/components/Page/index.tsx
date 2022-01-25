@@ -20,12 +20,12 @@ const Page: React.FC = () => {
 
                     ].map(modelName => (
                         <ModelSection 
-                        key="{modelName}"
+                        key={modelName}
                         className="colored"
-                        modelName="{modelName}"
+                        modelName={modelName}
                         overlayNode={
                                 <DefaultOverLayContent 
-                                    label="{modelName}"
+                                    label={modelName}
                                     description="Order Online for Delivery"
                                 />
                             }
