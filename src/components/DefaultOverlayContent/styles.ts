@@ -14,7 +14,7 @@ export const Heading = styled.div`
         font-weight: 500;
         font-size: 40px;
         line-height: 48px;
-        color: #393c41;
+        color: white;
     }
     >h2 {
         font-weight: normal;

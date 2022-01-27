@@ -1,25 +1,29 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import CahnbuyaCity from '../../assets/cahnbuyaCity.jpg';
+import DraukenCity from '../../assets/draukenCity.jpg'
+import DurnnstenCity from '../../assets/durnnstenCity.jpg'
+import DuurhnowCity from '../../assets/duurhnowCity.jpg'
+import LaulfthCity from '../../assets/laulfthCity.jpg'
+import ZinvallCity from '../../assets/zinvallCity.jpg'
+
 export const Container = styled.div`
   .colored:nth-child(1) {
-    background: url("../../assets/cahnbuyaCity.jpg");
+    background: url(${CahnbuyaCity});
   }
   .colored:nth-child(2) {
-    background: #dfffd9;
+    background: url(${DraukenCity});
   }
   .colored:nth-child(3) {
-    background: #cdfeca;
+    background: url(${DurnnstenCity});
   }
   .colored:nth-child(4) {
-    background: #bbfebb;
+    background: url(${DuurhnowCity});
   }
   .colored:nth-child(5) {
-    background: #a9fdac;
+    background: url(${LaulfthCity});
   }
   .colored:nth-child(6) {
-    background: #90f29c;
-  }
-  .colored:nth-child(7) {
-    background: #77e68c;
+    background: url(${ZinvallCity});
   }
 `
 export const Spacer = styled.div `
